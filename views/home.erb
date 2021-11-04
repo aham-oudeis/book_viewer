@@ -1,0 +1,11 @@
+<h2 class="content-subhead">Table of Contents</h2>
+
+<div class="pure-menu">
+  <ul class="pure-menu-list">
+      <% @list_of_contents.each do |item| %> 
+      <li class='pure-menu-item'> 
+        <a href='#' class='pure-menu-link'><%= item %></a>
+      </li>
+      <% end %>
+  </ul>
+</div>
